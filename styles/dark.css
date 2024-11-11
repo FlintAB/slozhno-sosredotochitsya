@@ -24,8 +24,5 @@
 
 .theme_dark {
 	--text-color: var(--background-color);
-}
-
-.theme_dark {
 	color: rgb(219, 0, 255);
 }

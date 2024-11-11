@@ -218,29 +218,6 @@
 		grid-template-columns: 1fr 2fr;
 	}
 
-	.section_one_list {
-		grid-column-start: 2;
-	}
-
-	@media (width >= 768px) {
-		.section_two_list {
-			display: grid;
-			grid-column-start: span 2;
-		}
-	}
-
-	@media (width >= 1024px) {
-		.section_two_list {
-			grid-template-columns: repeat(3, 1fr);
-		}
-	}
-
-	@media (width >= 768px) {
-		.section_three_list {
-			grid-column-start: 2;
-		}
-	}
-
 	.main__article:nth-child(even):not(:last-child) {
 		grid-template-columns: repeat(3, 1fr);
 		grid-template-rows: repeat(2, auto);
