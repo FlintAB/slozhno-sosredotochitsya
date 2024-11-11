@@ -22,7 +22,7 @@
 	display: none;
 }
 
-.theme_light .title-decor {
+.theme_light {
 	--text-color: var(--text-color);
 }
 
@@ -31,9 +31,9 @@
 }
 
 @media (width >= 1024px) {
-  .title {
-    text-shadow: 4px 4px 0 rgb(255, 0, 112);
-  }
+	.title {
+		text-shadow: 4px 4px 0 rgb(255, 0, 112);
+	}
 }
 
 @media (prefers-color-scheme: light) {
@@ -59,9 +59,9 @@
 		color: rgb(255, 194, 230);
 	}
 
-  @media (width >= 1024px) {
-  .title {
-    text-shadow: 4px 4px 0 rgb(255, 0, 112);
-  }
-}
+	@media (width >= 1024px) {
+		.title {
+			text-shadow: 4px 4px 0 rgb(255, 0, 112);
+		}
+	}
 }
